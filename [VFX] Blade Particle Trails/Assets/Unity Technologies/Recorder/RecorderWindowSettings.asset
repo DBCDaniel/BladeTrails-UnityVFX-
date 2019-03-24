@@ -11,58 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114363694960659284}
---- !u!114 &114363694960659284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
-  m_Name: Recorder Settings
-  m_EditorClassIdentifier: 
-  m_AssetID: b79250f1c85465048aea0fc6f7e33ede
-  m_CaptureEveryNthFrame: 1
-  m_FrameRateMode: 1
-  m_FrameRate: 30
-  m_FrameRateExact: 64
-  m_StartFrame: 0
-  m_EndFrame: 10
-  m_StartTime: 0
-  m_EndTime: 6
-  m_DurationMode: 3
-  m_SynchFrameRate: 1
-  m_BaseFileName:
-    m_Pattern: '[VFX]BladeTrails(Golden).mp4'
-  m_DestinationPath:
-    m_root: 0
-    m_leaf: F:/HeartlockGames/Projects/Test/BladeTrails/Release/[VFX]BladeTrails(Golden)/Recordings
-  m_InputsSettings:
-    m_InputsSettingsAssets:
-    - {fileID: 114802328464605148}
-    - {fileID: 114708421478537080}
-    ownerRecorderSettingsAssetId: b79250f1c85465048aea0fc6f7e33ede
-  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_OutputFormat: 0
-  m_AppendSuffix: 0
---- !u!114 &114708421478537080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
-  m_Name: c6ffdb5e-52ed-4244-8869-a63d0e445d87
-  m_EditorClassIdentifier: 
-  m_DisplayName: Audio
-  m_Id: a69e888c-56e2-46b3-9ad4-b6644eedea58
-  m_PreserveAudio: 1
---- !u!114 &114802328464605148
+  m_Settings: {fileID: 114652882647362126}
+--- !u!114 &114267453620153974
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -71,15 +21,54 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: 38df449b-8ccf-4932-a4fc-bddeadf67a37
+  m_Name: 3fa80d2e-524e-4413-8326-67ea13f2b69c
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: d38f0347-d436-4a00-8357-cff7caba115a
+  m_Id: fcff9bda-d7e4-4471-9f89-cdf47f37f43f
   m_OutputSize: 720
   m_AspectRatio: 0
-  m_ForceEvenSize: 1
+  m_ForceEvenSize: 0
   source: 4
   m_CameraTag: 
-  m_FlipFinalOutput: 0
+  m_FlipFinalOutput: 1
   m_AllowTransparency: 0
   m_CaptureUI: 0
+--- !u!114 &114652882647362126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e435bf89a8bb0bf4abee94a2cc516927, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: b79250f1c85465048aea0fc6f7e33ede
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 30
+  m_FrameRateExact: 64
+  m_StartFrame: 0
+  m_EndFrame: 60
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 2
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: '[VFX]BladeTrails(Bronze).gif'
+  m_DestinationPath:
+    m_root: 0
+    m_leaf: F:/HeartlockGames/Projects/Test/BladeTrails/Release/[VFX]BladeTrails(Bronze)/Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114267453620153974}
+    ownerRecorderSettingsAssetId: b79250f1c85465048aea0fc6f7e33ede
+  m_RecorderTypeName: UTJ.FrameCapturer.Recorders.GIFRecorder, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  m_GifEncoderSettings:
+    width: 0
+    height: 0
+    numColors: 256
+    keyframeInterval: 30
+    maxTasks: 8
