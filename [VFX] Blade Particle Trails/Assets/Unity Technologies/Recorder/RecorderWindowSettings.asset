@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
   m_Settings: {fileID: 0}
---- !u!114 &114345645123280314
+--- !u!114 &114363694960659284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -41,35 +41,14 @@ MonoBehaviour:
     m_leaf: Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114534804539833832}
-    - {fileID: 114967421059952358}
+    - {fileID: 114802328464605148}
+    - {fileID: 114708421478537080}
     ownerRecorderSettingsAssetId: b79250f1c85465048aea0fc6f7e33ede
   m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OutputFormat: 0
   m_AppendSuffix: 0
---- !u!114 &114534804539833832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: cc90ddc0-f19b-426a-a0be-aebe514612f8
-  m_EditorClassIdentifier: 
-  m_DisplayName: Pixels
-  m_Id: 2c3cc74b-0e58-430b-ae8e-e9d6810dee4f
-  m_OutputSize: 720
-  m_AspectRatio: 0
-  m_ForceEvenSize: 1
-  source: 1
-  m_CameraTag: 
-  m_FlipFinalOutput: 0
-  m_AllowTransparency: 0
-  m_CaptureUI: 0
---- !u!114 &114967421059952358
+--- !u!114 &114708421478537080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -78,8 +57,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
-  m_Name: 9e79946a-92cd-4390-b1c9-9d1b9e1aa937
+  m_Name: c6ffdb5e-52ed-4244-8869-a63d0e445d87
   m_EditorClassIdentifier: 
   m_DisplayName: Audio
-  m_Id: d6ba98f1-a393-437d-9615-48095008a25a
+  m_Id: a69e888c-56e2-46b3-9ad4-b6644eedea58
   m_PreserveAudio: 1
+--- !u!114 &114802328464605148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 38df449b-8ccf-4932-a4fc-bddeadf67a37
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: d38f0347-d436-4a00-8357-cff7caba115a
+  m_OutputSize: 720
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 1
+  m_CameraTag: 
+  m_FlipFinalOutput: 0
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
