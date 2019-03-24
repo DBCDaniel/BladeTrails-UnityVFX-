@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 0}
+  m_Settings: {fileID: 114363694960659284}
 --- !u!114 &114363694960659284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,18 +27,18 @@ MonoBehaviour:
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 30
-  m_FrameRateExact: 1
+  m_FrameRateExact: 64
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 1
-  m_DurationMode: 0
+  m_EndTime: 6
+  m_DurationMode: 3
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: '[VFX]BladeTrails(Golden).mp4'
   m_DestinationPath:
-    m_root: 1
-    m_leaf: Recordings
+    m_root: 0
+    m_leaf: F:/HeartlockGames/Projects/Test/BladeTrails/Release/[VFX]BladeTrails(Golden)/Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114802328464605148}
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_OutputSize: 720
   m_AspectRatio: 0
   m_ForceEvenSize: 1
-  source: 1
+  source: 4
   m_CameraTag: 
   m_FlipFinalOutput: 0
   m_AllowTransparency: 0
